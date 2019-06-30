@@ -23,7 +23,7 @@ const AlbumDetail = ({ album }) => {
             <CardSection>
                 <Image 
                     style={imageStyle}
-                    src={{ uri: image }} 
+                    source={{ uri: image }} 
                 />
             </CardSection>
         </Card>
